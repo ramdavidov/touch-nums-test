@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47, 0, 122);
+    font-family: Tahoma;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+h1 {
+    color: orange;
+}
+
+h1 span {
+    color: gold;
+}
+
+.timer {
+    color: darkorange;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.digits {
+    color: gold;
+}
+
+h2 {
+    display: inline;
+    font-size: 30 px;
+    bottom: 30px;
+}
+
+.board {
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.board .button {
+    height: 80px;
+    width: 80px;
+    font-size: 25px;
+    border: none;
+    font-family: Tahoma;
+}
+
+.default {
+    background-color: rgb(126, 223, 255);
+    cursor: crosshair;
+    user-select: none;
+}
+
+.table {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(94, 183, 255);
+}
+
+.correct {
+    background-color: greenyellow;
+}
+
+.diff {
+    text-align: center;
+    border: none;
+    width: auto;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.easy {
+    background-color: rgb(255, 238, 0);
+}
+
+.hard {
+    background-color: rgb(255, 187, 0);
+}
+
+.nightmare {
+    background-color: rgb(255, 145, 0);
+}
+
+.diff span {
+    font-weight: bold;
+}
+
+.wrong {
+    background-color: rgb(255, 30, 0);
+}

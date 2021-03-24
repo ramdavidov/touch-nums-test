@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TOUCH-NUMS | Rami</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body onload="init()">
+    <h1>TOUCH<span>-</span>NUMS</h1>
+    <div class="game">
+        <div class="timer">
+            <h2>Timer: <span class="digits">00.000</span></h2>
+        </div>
+        <button class="diff easy" onclick="switchDifficulty(4)"><span>Easy</span> (16)</button>
+        <button class="diff hard" onclick="switchDifficulty(5)"><span>Hard</span> (25)</button class="diff">
+        <button class="diff nightmare" onclick="switchDifficulty(6)"><span>Nightmare</span> (36)</button class="diff">
+        <table>
+            <tbody class="board">
+            </tbody>
+        </table>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
